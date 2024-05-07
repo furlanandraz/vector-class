@@ -1,0 +1,31 @@
+body{
+    width: 100vh;
+    height: 100vh;
+}
+#box {
+    position: absolute;
+    width: 20vw;
+    aspect-ratio: 1;
+    background-color: #ccc;
+    top: 30vh;
+    left: 40vw;
+    /* box-shadow: -1em -1em 1em #000; */
+}
+
+#vector {
+    position: absolute;
+    height: 3px;
+    background-color: #f00;
+    z-index: 1;
+    transform-origin: left;
+}
+
+#vector::after {
+    content: '';
+    position: absolute;
+    border-top: 9px solid transparent;
+    border-bottom: 9px solid transparent;
+    border-left: 12px solid #f00;
+    right: -3px;
+    top: -7px;
+}
