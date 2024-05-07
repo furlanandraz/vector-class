@@ -20,8 +20,8 @@ methods include
 
 ### Note the upside-down coordinate system when implementing!
 
-        |
-   III  |  IV
---------|-------
-    II  |  I
-        |
+         |
+    III  |  IV
+ --------|-------
+     II  |  I
+         |
