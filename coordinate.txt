@@ -1,0 +1,10 @@
+# If used with second vector, pointing at coordinate center
+screen(0,0)
+   `      |
+     III  |  IV
+  --------|-------
+     II   |   I
+          |
+
+  # If not used with second vector default center set at (0,0)
+  # all positions are within I. quadrant
